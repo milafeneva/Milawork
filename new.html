@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Album</title>
+    <style>
+        body, h1, h2, p, ul, li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin: 10px; 
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #020101;
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            background-color: #cabc9f;
+            color: #5d2e00;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #ba0505;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-spacing: 5px;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            float: center;
+        }
+
+        th,
+        td {
+            border: 2px solid #f6efef;
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+            float: right;
+        }
+
+        label,
+        input,
+        textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input,
+        textarea {
+            width: 80%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #998970;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #b03a10; 
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Our media album </h1>
+        <h2>2024</h2>
+        <nav>
+            <a href="#peakyblinders">Peaky Blinders</a> |
+            <a href="#parasite"> Parasite</a> |
+            <a href="#sapiens"> Sapiens</a> |
+            <a href="#rules"> 12 Rules For Life</a> |
+            <a href="#add"> Add something new</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main>
+        <form action="https://webtech.labs.vu.nl/api24/ca4c98fa" target="_blank" method="POST">
+            <table class="tab">
+                <caption>Movies&Books</caption>
+
+                <tr>
+                    <th>POSTER</th>
+                    <th>NAME</th>
+                    <th>YEAR</th>
+                    <th>GENRE</th>
+                    <th>DESCRIPTION</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61aPzScmLoS._AC_UF894,1000_QL80_.jpg" alt="peaky blinders" width="250">
+                            <figcaption>Peaky Blinders (tv series) </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <section id="peakyblinders">
+                            <p>Peaky Blinders</p>
+                        </section>
+                    </td>
+                    <td>2013</td>
+                    <td>
+                        <ul>
+                            <li>Drama</li>
+                            <li>Crime</li>
+                            <li>Thriller</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</p>
+                        <p>&#127942; Won the Best Drama Series <abbr title="British Academy Film Awards">BAFTA</abbr> award in 2018.</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="https://tatler.lakesideschool.org/wp-content/uploads/2020/05/Parasite-Review-Parasite-posterIMDb-600x900.jpg" alt="parasite" width="250">
+                            <figcaption>Parasite (movie) </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <section id="parasite">
+                            <p>Parasite</p>
+                        </section>
+                    </td>
+                    <td>2019</td>
+                    <td>
+                        <ul>
+                            <li>Drama</li>
+                            <li>Thriller</li>
+                            <li>Horror</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</p>
+                        <p>&#127942; Among its numerous accolades, Parasite won a leading four Academy Awards at the 92nd Academy Awards: Best Picture, Best Director, Best Original Screenplay, and Best International Feature Film, becoming <em>the first non-English-language film to win the Academy Award for Best Picture</em></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="https://m.media-amazon.com/images/I/71N3-FFSDxL._AC_UF894,1000_QL80_.jpg" alt="sapiens" width="200">
+                            <figcaption>Sapiens (book) </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <section id="sapiens">
+                            <p>Sapiens</p>
+                        </section>
+                    </td>
+                    <td>2011</td>
+                    <td>
+                        <ul>
+                            <li>Non-fiction</li>
+                            <li>Autobiography</li>
+                            <li>Poetry</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>What does it mean to be human? </p>
+                        <p>In a sweeping narrative spanning two and half million years of human evolution, Israeli historian Yuval Noah Harari weaves insights from science and the humanities together to answer to what it means to be human.</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/12_Rules_for_Life_Front_Cover_%282018_first_edition%29.jpg" alt="12 rules for life" width="200" height="350">
+                            <figcaption> 12 Rules For Life (book) </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <section id="rules">
+                            <p>12 Rules For Life</p>
+                        </section>
+                    </td>
+                    <td>2018</td>
+                    <td>
+                        <ul>
+                            <li>Psychology</li>
+                            <li>Fiction</li>
+                            <li>Mythology</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>12 Rules for Life: An Antidote to Chaos is a 2018 self-help book by the Canadian clinical psychologist Jordan Peterson. It provides life advice through essays in abstract ethical principles, psychology, mythology, religion, and personal anecdotes.</p>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <section id="add">
+                            <label for="poster">Poster:</label><br>
+                            <input type="url" id="poster" name="poster" placeholder="https://poster.com/image.jpg" required><br>
+                        </section>
+                    </td>
+                    <td>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Home Alone" required><br>
+                    </td>
+                    <td>
+                        <label for="year">Year:</label><br>
+                        <input type="number" id="year" name="year" placeholder="1990" required><br>
+                    </td>
+                    <td>
+                        <label for="genre">Genre:</label><br>
+                        <input type="text" id="genre" name="genre" placeholder="Comedy" required><br>
+                    </td>
+                    <td>
+                        <label for="description">Description:</label><br>
+                        <textarea id="description" name="description" cols="105" rows="5" placeholder="An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve."></textarea><br>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <p>January 2024 <strong>Media Album</strong></p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+table {
+    font-family: Arial;
+    border: 3px solid rgb(163, 231, 166);
+    background-color: rgb(112, 112, 173);
+ }
+ caption{
+    background-color: rgb(163, 231, 166);
+    height:30px;
+    text-align: center;
+    
+ }
+ tr{
+    background-color: lavender;
+ }
+ th:hover{
+    color: orange;
+ }
+
+  @media print and (max-width: 800px) {
+    .tab {
+        width: 100px;
+    }
+  }
