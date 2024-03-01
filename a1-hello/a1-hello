@@ -1,0 +1,21 @@
+section .data
+    msg db 'Computer Organization 2024', 0xA, 'Assignment 1 - hello', 0xA, 'by: Mila Feneva', 0xA, 0
+
+section .text
+    global _start
+
+_start:
+
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, msg
+    mov edx, msg_len
+    int 0x80
+
+
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80
+
+section .bss
+    msg_len resb 1
